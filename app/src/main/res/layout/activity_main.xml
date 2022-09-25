@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#ffff00"
+    android:background="#FEFBBD"
     android:padding="20dp"
     android:gravity="top|left"
     tools:context=".MainActivity">
@@ -91,12 +91,14 @@
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:enabled="false"
             android:text="공개안함"
             />
 
     </RadioGroup>
 
     <CheckBox
+        android:visibility="gone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:checked="true"
